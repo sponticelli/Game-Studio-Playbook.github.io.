@@ -1,5 +1,5 @@
 # Game Studio Playbook - Jekyll Configuration
-# GitHub Pages site configuration
+# Using Just the Docs theme for documentation
 
 # Site Settings
 title: Game Studio Playbook
@@ -7,50 +7,94 @@ description: A comprehensive workbook for game development teams - frameworks, c
 url: "https://sponticelli.github.io"
 baseurl: "/game-studio-playbook.github.io"
 
-# Author
-author:
-  name: Sandro Ponticelli
-  url: https://www.linkedin.com/in/sandroponticelli/
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.0
 
-# Build Settings
-remote_theme: pages-themes/minimal@v0.2.0
+# Color scheme (light, dark, or custom)
+color_scheme: light
+
+# Logo (optional - place in assets/images/)
+# logo: "/assets/images/logo.png"
+
+# Favicon (optional)
+# favicon_ico: "/assets/images/favicon.ico"
+
+# Aux links (top right)
+aux_links:
+  "View on GitHub": "https://github.com/sponticelli/game-studio-playbook.github.io"
+
+aux_links_new_tab: true
+
+# Heading anchor links
+heading_anchors: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content
+footer_content: "Game Studio Playbook by <a href=\"https://www.linkedin.com/in/sandroponticelli/\">Sandro Ponticelli</a>. Free to use and adapt."
+
+# Last edit timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+# GitHub edit link
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/sponticelli/game-studio-playbook.github.io"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Mermaid diagrams (if you want to add them later)
+mermaid:
+  version: "10.9.0"
+
+# Callouts
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
 
 # Markdown Processor
 markdown: kramdown
 kramdown:
-  input: GFM                     # GitHub Flavored Markdown
-  hard_wrap: false               # Don't convert newlines to <br>
-  auto_ids: true                 # Auto-generate header IDs
-  syntax_highlighter: rouge      # Code syntax highlighting
-  syntax_highlighter_opts:
-    default_lang: plaintext
-    guess_lang: true
-  toc_levels: "1..3"             # Table of contents depth
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
 
-# Syntax Highlighting
-highlighter: rouge
-
-# Plugins (GitHub Pages supported)
+# Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-github-metadata
-  - jekyll-relative-links
+  - jekyll-include-cache
 
-# Relative Links Plugin
-relative_links:
-  enabled: true
-  collections: true
-
-# Permalink Structure
-permalink: pretty
-
-# File Handling
-include:
-  - _pages
-  - "*.md"
-
+# Exclude from build
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -58,28 +102,14 @@ exclude:
   - vendor
   - .git
   - .gitignore
-  - README.md
   - LICENSE
 
-# Default Front Matter
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-
-# GitHub Metadata
-repository: sponticelli/game-studio-playbook.github.io
-
-# SEO and Social
-twitter:
-  card: summary
-social:
-  name: Sandro Ponticelli
-  links:
-    - https://www.linkedin.com/in/sandroponticelli/
-    - https://github.com/sponticelli
-
-# Timezone
-timezone: Europe/Rome
+# Collections for navigation (optional, for custom ordering)
+# just_the_docs:
+#   collections:
+#     track-a:
+#       name: Track A - Greenfield
+#       nav_exclude: false
+#     track-b:
+#       name: Track B - Mature Games
+#       nav_exclude: false
