@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Scope and Change Management"
+---
+
 # Scope & Change Management
 
 > *"The enemy of a good plan is the dream of a perfect plan."*  

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "HOW TO USE THIS WORKBOOK"
+title: "How to Use This Workbook"
 ---
+
 # HOW TO USE THIS WORKBOOK
 
 ## Building Your Game Studio Playbook

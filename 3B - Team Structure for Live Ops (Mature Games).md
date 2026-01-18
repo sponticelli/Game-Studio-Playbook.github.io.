@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Team Structure for Live Ops (Mature Games)"
+---
 
 # Team Structure for Live Ops (Mature Games)
 

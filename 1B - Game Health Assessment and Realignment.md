@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Game Health Assessment and Realignment"
+---
+
 # Game Health Assessment & Realignment
 
 ## For Mature Games & Live Operations

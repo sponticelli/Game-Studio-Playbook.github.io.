@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Live Ops Planning and Optimization (Mature Games)"
+---
+
 # Live Ops Planning & Optimization (Mature Games)
 
 ## How to Use Track B

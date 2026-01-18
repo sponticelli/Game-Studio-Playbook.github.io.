@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Risk and Problem Solving"
+---
+
 # Risk & Problem Solving
 
 > *"Everyone has a plan until they get punched in the mouth."*  

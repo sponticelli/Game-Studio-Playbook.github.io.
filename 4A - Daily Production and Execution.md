@@ -1,4 +1,9 @@
-# BLOCK 4: Daily Production & Execution
+---
+layout: default
+title: "Daily Production and Execution"
+---
+
+# Daily Production & Execution
 
 > *"We are what we repeatedly do. Excellence, then, is not an act, but a habit."*  
 > — Will Durant (summarizing Aristotle)

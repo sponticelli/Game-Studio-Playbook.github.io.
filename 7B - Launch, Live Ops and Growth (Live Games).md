@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Launch, Live Ops and Growth (Live Games)"
+---
+
+# Launch, Live Ops and Growth (Live Games)
 
 Complete this track to optimize your live operations. Return when metrics plateau, events underperform, or growth stalls.
 

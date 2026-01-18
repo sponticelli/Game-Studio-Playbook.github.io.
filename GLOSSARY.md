@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Glossary"
+---
+
 # Glossary of Terms
 
 *A comprehensive reference of game industry terminology, metrics, and concepts used throughout this workbook.*

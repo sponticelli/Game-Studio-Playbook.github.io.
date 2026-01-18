@@ -1,4 +1,9 @@
+---
+layout: default
+title: "Launch and Growth"
+---
 
+# Launch and Growth
 
 > _"A launch is not the finish line—it's the starting gun."_  
 > — Unknown

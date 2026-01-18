@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Project Foundation & Vision Alignment"
+---
+
 # Project Foundation & Vision Alignment
 
 > *"The only way this works is to start every project by defining a clear, concise vision. From there, teams iterate towards the vision."*  

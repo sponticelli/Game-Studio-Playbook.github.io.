@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Risk and Problem Solving (Live Games)"
+---
 
 # Risk & Problem Solving (Live Games)
 

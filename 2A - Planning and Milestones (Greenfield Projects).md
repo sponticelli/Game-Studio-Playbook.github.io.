@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Planning and Milestones (Greenfield Projects)"
+---
+
 # Planning & Milestones
 
 > _"Plans are worthless, but planning is everything."_  

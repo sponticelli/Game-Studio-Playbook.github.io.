@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Team Structure and Communication"
+---
+
 # Team Structure & Communication
 
 > *"Culture eats strategy for breakfast, but structure eats culture for lunch."*  

@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Scope and Change Management (Mature Games)"
+---
 
 # Scope & Change Management (Mature Games)
 
